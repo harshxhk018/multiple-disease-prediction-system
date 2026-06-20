@@ -1,35 +1,154 @@
-# Multiple Disease Prediction System
+# 🩺 Multiple Disease Prediction System
 
-A Machine Learning based web application that predicts multiple diseases using trained classification models.
+A Machine Learning based web application that predicts the likelihood of multiple diseases using trained classification models.
 
-## Diseases Supported
+The application provides a simple and user-friendly interface where users can select a disease, enter patient information, and receive real-time predictions.
 
-* Heart Disease Prediction
-* Diabetes Prediction
-* Breast Cancer Prediction
+---
 
-## Features
+## 🚀 Live Demo
 
-* Single web application for multiple diseases
+Streamlit App:
+
+(Add your Streamlit deployment link here after deployment)
+
+---
+
+## 📌 Diseases Supported
+
+### ❤️ Heart Disease Prediction
+
+Predicts the likelihood of heart disease using clinical and cardiovascular parameters.
+
+Features Used:
+
+* Age
+* Sex
+* Resting Blood Pressure
+* Cholesterol
+* Fasting Blood Sugar
+* Rest ECG
+* Maximum Heart Rate
+* Exercise Induced Angina
+* Old Peak
+* Slope
+* Number of Major Vessels
+* Chest Pain Type
+* Thalassemia Information
+
+---
+
+### 🩸 Diabetes Prediction
+
+Predicts diabetes using medical diagnostic measurements.
+
+Features Used:
+
+* Pregnancies
+* Glucose
+* Blood Pressure
+* Skin Thickness
+* Insulin
+* BMI
+* Diabetes Pedigree Function
+* Age
+
+---
+
+### 🎗️ Breast Cancer Prediction
+
+Predicts breast cancer recurrence using clinical parameters.
+
+Features Used:
+
+* Age Category
+* Menopause Status
+* Tumor Size
+* Involved Nodes
+* Node Caps
+* Degree of Malignancy
+* Breast Side
+* Breast Quadrant
+* Irradiation History
+
+---
+
+## ✨ Features
+
+* Single platform for multiple disease prediction
+* Real-time prediction
 * User-friendly interface
-* Real-time predictions
-* Machine Learning based decision support
+* Streamlit web application
+* Machine Learning based classification models
+* Accessible from any device through a browser
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
 
 * Python
 * Streamlit
-* Scikit-Learn
-* Pandas
 * NumPy
+* Pandas
+* Scikit-Learn
+* Joblib
 
-## Models
+---
 
-* Heart Disease Model
-* Diabetes Model
-* Breast Cancer Model
+## 🤖 Machine Learning Models
 
-## Author
+| Disease       | Model                    |
+| ------------- | ------------------------ |
+| Heart Disease | Logistic Regression      |
+| Diabetes      | Random Forest Classifier |
+| Breast Cancer | Logistic Regression      |
+
+---
+
+## 📂 Project Structure
+
+multiple-disease-prediction-system/
+
+├── app.py
+
+├── requirements.txt
+
+├── README.md
+
+├── heart_model.pkl
+
+├── diabetes_model.pkl
+
+├── diabetes_scaler.pkl
+
+├── breast_cancer_model.pkl
+
+└── breast_cancer_scaler.pkl
+
+---
+
+## ▶️ Run Locally
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run application:
+
+streamlit run app.py
+
+---
+
+## 🎓 Academic Information
+
+Developed as a Machine Learning project for practical healthcare prediction using classification algorithms.
+
+---
+
+## 👨‍💻 Author
 
 Harsh Kumar
-NIT Calicut (ECE)
+
+B.Tech Electronics and Communication Engineering (ECE)
+
+National Institute of Technology Calicut (NIT Calicut)
