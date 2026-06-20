@@ -4,45 +4,32 @@ A Machine Learning based web application that predicts multiple diseases using t
 
 ## Diseases Supported
 
-* ❤️ Heart Disease Prediction
-* 🩸 Diabetes Prediction
-* 🎗️ Breast Cancer Prediction
+* Heart Disease Prediction
+* Diabetes Prediction
+* Breast Cancer Prediction
 
 ## Features
 
 * Single web application for multiple diseases
 * User-friendly interface
-* Real-time prediction
+* Real-time predictions
 * Machine Learning based decision support
-* Accessible from any device through a web browser
 
 ## Technologies Used
 
 * Python
 * Streamlit
+* Scikit-Learn
 * Pandas
 * NumPy
-* Scikit-Learn
-* Joblib
 
-## Machine Learning Models
+## Models
 
-* Heart Disease Prediction Model
-* Diabetes Prediction Model
-* Breast Cancer Prediction Model
-
-## Project Structure
-
-* app.py
-* requirements.txt
-* heart_model.pkl
-* diabetes_model.pkl
-* breast_cancer_model.pkl
+* Heart Disease Model
+* Diabetes Model
+* Breast Cancer Model
 
 ## Author
 
 Harsh Kumar
-
-Electronics and Communication Engineering
-
-NIT Calicut
+NIT Calicut (ECE)
