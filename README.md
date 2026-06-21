@@ -10,7 +10,7 @@ The application provides a simple and user-friendly interface where users can se
 
 Streamlit App:
 
-(Add your Streamlit deployment link here after deployment)
+[(https://multiple-disease-prediction-system-harsh018nitc.streamlit.app/)](https://multiple-disease-prediction-system-harsh018nitc.streamlit.app/)
 
 ---
 
